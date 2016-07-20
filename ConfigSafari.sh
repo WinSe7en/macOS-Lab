@@ -1,39 +1,5 @@
 #!/bin/sh
-#####################################################################################################
-#
-# ABOUT THIS PROGRAM
-#
-# NAME
-#	ConfigSafari.sh -- Setup Safari
-#
-# SYNOPSIS
-#	sudo ConfigSafari.sh
-#
-# DESCRIPTION
-#	
-#
-#
-####################################################################################################
-#
-# HISTORY
-#
-#	Version: 1.0
-#
-#
-####################################################################################################
-#
-# DEFINE VARIABLES & READ IN PARAMETERS
-#
-#####################################################################################################
-#
-# HARDCODED VALUES SET HERE
-#
-# Variables set by Casper - To manually override, remove the comment for the given variable
-# targetDrive=""  # Casper will pass this parameter as "Target Drive" if left commented out
-# computerName=""  # Casper will pass this parameter as "Computer Name" if left commented out
-# userName=""  # Casper will pass this parameter as "User Name" if left commented out. Usernames
-#				   can only be passed if the script is triggered at login, logout, or by Self Service
-####################################################################################################
+
 
 # Variables used by this script.
 webURL="http://www.du.edu"
