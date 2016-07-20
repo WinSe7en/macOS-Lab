@@ -11,3 +11,4 @@ $airport prefs RequireAdminIBSS=YES
 $airport prefs RequireAdminPowerToggle=YES
 $airport prefs RequireAdminNetworkChange=YES
 
+networksetup -setairportpower en0 off
