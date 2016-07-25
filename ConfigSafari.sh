@@ -4,7 +4,7 @@
 # Variables used by this script.
 webURL="http://www.du.edu"
 
-if [ "$4" != "" ] && [ "$webURL" == "" ]; then
+if [ "$4" != "" ]; then
     webURL="$4"
 fi
 
