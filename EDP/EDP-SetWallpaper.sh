@@ -1,5 +1,7 @@
 #!/bin/sh
 
+WallpaperName="Milky Way.jpg"
+
 if [ "$4" != "" ] && [ "$WallpaperName" == "" ]; then
     WallpaperName="$4"
 fi
