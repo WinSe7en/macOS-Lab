@@ -10,18 +10,19 @@ fi
 
 
 #Disable Automatically Open Safe Downloads
-defaults write $SafariPlist AutoOpenSafeDownloads -bool False
+echo $SafariPlist
+defaults write /System/Library/User\ Template/Non_localized/Library/Preferences/com.apple.Safari AutoOpenSafeDownloads -bool False
 #Set homepage
-defaults write $SafariPlist HomePage -string $webURL
-defaults write $SafariPlist NewWindowBehavior -int 0
-defaults write $SafariPlist NewTabBehavior -int 4
+defaults write /System/Library/User\ Template/Non_localized/Library/Preferences/com.apple.Safari HomePage -string $webURL
+defaults write /System/Library/User\ Template/Non_localized/Library/Preferences/com.apple.Safari NewWindowBehavior -int 0
+defaults write /System/Library/User\ Template/Non_localized/Library/Preferences/com.apple.Safari NewTabBehavior -int 4
 #Disable Autofill Passwords
-defaults write $SafariPlist AutoFillPasswords -bool False
-defaults write $SafariPlist AutoFillCreditCardData -bool False
-defaults write $SafariPlist AutoFillFromAddressBook -bool False
-defaults write $SafariPlist AutoFillMiscellaneousForms -bool False
-#defaults write $SafariPlist AutoFillFromAddressBook -bool False
+defaults write /System/Library/User\ Template/Non_localized/Library/Preferences/com.apple.Safari AutoFillPasswords -bool False
+defaults write /System/Library/User\ Template/Non_localized/Library/Preferences/com.apple.Safari AutoFillCreditCardData -bool False
+defaults write /System/Library/User\ Template/Non_localized/Library/Preferences/com.apple.Safari AutoFillFromAddressBook -bool False
+defaults write /System/Library/User\ Template/Non_localized/Library/Preferences/com.apple.Safari AutoFillMiscellaneousForms -bool False
+#defaults write /System/Library/User\ Template/Non_localized/Library/Preferences/com.apple.Safari AutoFillFromAddressBook -bool False
 
-defaults write $SafariPlist DownloadsPath -string "~/Downloads"
-defaults write $SafariPlist ExtensionsEnabled -bool False
-defaults write $SafariPlist HistoryAgeInDaysLimit -int 1
+defaults write /System/Library/User\ Template/Non_localized/Library/Preferences/com.apple.Safari DownloadsPath -string "~/Downloads"
+defaults write /System/Library/User\ Template/Non_localized/Library/Preferences/com.apple.Safari ExtensionsEnabled -bool False
+defaults write /System/Library/User\ Template/Non_localized/Library/Preferences/com.apple.Safari HistoryAgeInDaysLimit -int 1
