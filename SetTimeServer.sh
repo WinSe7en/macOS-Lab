@@ -4,4 +4,4 @@
 touch /etc/ntp.conf
 
 #Set timeserver
-systemsetup -setnetworktimeserver time.du.edu
+/usr/sbin/systemsetup -setnetworktimeserver time.du.edu
